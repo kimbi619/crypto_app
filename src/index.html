@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600&family=Nunito:wght@300;400;500&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container" draggable="false"> 
+      <header>
+        <div class="currentCrypto">
+          <p class="current">current btc rate</p>
+          <h1 class="title">Loading...</h1>
+        </div>
+        <div class="targetPrice">
+          <div class="dropdown">Choose a Target Price</div>
+          <div class="dropDownContent">
+            ...
+          </div>
+        </div>
+        <div class="notifyBtn">
+          <button class="notifybtn" id='notificationBtn'>Notify me when</button>
+        </div>
+      </header>
+      <main>
+
+      </main>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

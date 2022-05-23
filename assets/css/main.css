@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600&family=Nunito:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+body{
+    background-color: #2D2D2D;
+}
+header{
+    margin-top: 2rem;
+    background: #1c1d25;
+    border-bottom: 4px solid rgb(165, 9, 69);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 2rem;
+    padding-left: 3rem;
+}
+
+button{
+    border: none;
+    outline: none;
+}
+
+
+
+/* =========================================================== */
+
+.current{
+    font-size: .9rem;
+    opacity: .4;
+    padding-bottom: 0rem;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+.currentCrypto{
+    background: #212631;
+    padding: .7em 1rem;
+}
+.title{
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+    padding-top: .3rem;
+}
+.notifyBtn, .targetPrice{
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+}
+.notifybtn{
+    background: rgb(211, 12, 95);
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    font-size: .8rem;
+    border-radius: 3px;
+}
+.targetPrice{
+    cursor: default;
+    font-size: 1rem;
+}
